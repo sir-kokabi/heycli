@@ -1,0 +1,91 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "heycli"
+version = "0.1.1"
+description = "Your AI Buddy for Daily Tasks"
+requires-python = ">=3.9"
+authors = [
+    {name = "Ayub Kokabi", email = "sir.kokabi@gmail.com"}
+]
+maintainers = [
+  {name = "Ayub Kokabi", email = "sir.kokabi@gmail.com"}
+]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Other Audience",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: System :: Shells",
+    "Topic :: System :: System Shells",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+keywords = [
+    "cli",
+    "ai",
+    "artificial-intelligence",
+    "terminal",
+    "automation",
+    "productivity",
+    "assistant",
+    "chatbot",
+    "command-line",
+    "developer-tools",
+    "task-automation",
+    "code-assistant",
+    "file-management",
+    "system-tools",
+    "natural-language",
+    "python-cli",
+    "gpt",
+    "ai-assistant",
+    "terminal-assistant",
+    "workflow"
+]
+
+dependencies = [
+    "typer==0.15.2",
+    "typing-extensions==4.12.2",
+    "rich==13.9.4",
+    "questionary==2.1.0",
+    "httpx==0.28.1",
+    "pyyaml==6.0.2",
+    "litellm==1.63.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/sir-kokabi/heycli"
+Repository = "https://github.com/sir-kokabi/heycli"
+Issues = "https://github.com/sir-kokabi/heycli/issues"
+
+[project.scripts]
+heycli = "heycli.main:app"
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple/"
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
