@@ -1,6 +1,6 @@
 # HeyCLI 🤖 - Your AI Buddy for Daily Tasks
 
-Imagine having a friendly AI assistant in your terminal, ready to tackle your everyday tasks. Tired of coding for those daily tasks? **heycli** lets you run commands like `heycli remove all empty folders` directly in your terminal. No setup, no messy scripts. Just quick, easy automation. It handles everything, so you don't have to.
+Stop wasting time on repetitive chores! `heycli` is your AI-powered command-line assistant that instantly automates everyday tasks. Forget writing scripts – simply run commands like `heycli remove all empty folders`. Zero setup, maximum efficiency.
 
 ![HeyCLI Preview](./heycli.jpg)
 
@@ -11,6 +11,7 @@ For example, need to convert all your `.png` images to `.jpg`? Just type `heycli
 Also, by default, it works in your current directory, so you don't have to specify the current working directory every time in your prompt.
 
 **If you can describe it, HeyCLI can do it.**
+Get your time back.
 
 For getting free API keys, check out [Zuki Journey](https://cas.zukijourney.com/).
 
