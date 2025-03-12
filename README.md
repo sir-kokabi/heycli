@@ -2,6 +2,8 @@
 
 Imagine having a friendly AI assistant in your terminal, ready to tackle your everyday tasks. Tired of coding for those daily tasks? **heycli** lets you run commands like `heycli remove all empty folders` directly in your terminal. No setup, no messy scripts. Just quick, easy automation. It handles everything, so you don't have to.
 
+![HeyCLI Preview](./heycli.jpg)
+
 For example, need to convert all your `.png` images to `.jpg`? Just type `heycli convert *.png to *.jpg`. Or, if you want to extract the first column of your `contacts.csv` and save it to `names.txt`, simply use `heycli extract column 1 from contacts.csv to names.txt`.
 
 **heycli** shows the code and confirms execution before running, ensuring you're always in control.
