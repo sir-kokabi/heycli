@@ -12,7 +12,7 @@ Also, by default, it works in your current directory, so you don't have to speci
 
 For getting free API keys, check out [Zuki Journey](https://cas.zukijourney.com/).
 
-https://github.com/user-attachments/assets/375d719d-3300-4562-b950-e166ee4dc30d
+https://github.com/user-attachments/assets/d3e53d75-7614-45ca-a347-dca77aba51e8
 
 ## 🚀 Install
 ```bash
