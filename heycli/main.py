@@ -31,7 +31,7 @@ app = typer.Typer(
 
 def version_callback(value: bool) -> None:
     if value:       
-        console.print("Version 0.1.0")
+        console.print("Version 1.0.0")
 
 def get_accessible_providers():
     with console.status("Checking available AI providers...", speed=2):
