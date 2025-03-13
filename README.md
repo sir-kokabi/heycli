@@ -1,8 +1,8 @@
 # HeyCLI 🤖 - Your AI Buddy for Daily Tasks
 
-Stop wasting time on repetitive chores! `heycli` is your AI-powered command-line assistant that instantly automates everyday tasks. Forget writing scripts – simply run commands like `heycli remove all empty folders`. Zero setup, maximum efficiency.
-
 ![HeyCLI Preview](./heycli.jpg)
+
+Stop wasting time on repetitive chores! `heycli` is your AI-powered command-line assistant that instantly automates everyday tasks. Forget writing scripts – simply run commands like `heycli remove all empty folders`. Zero setup, maximum efficiency.
 
 For example, need to convert all your `.png` images to `.jpg`? Just type `heycli convert *.png to *.jpg`. Or, if you want to extract the first column of your `contacts.csv` and save it to `names.txt`, simply use `heycli extract column 1 from contacts.csv to names.txt`.
 
