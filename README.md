@@ -23,8 +23,8 @@ https://github.com/user-attachments/assets/d3e53d75-7614-45ca-a347-dca77aba51e8
 ```bash
 pipx install heycli (recommended)
 
-# Set up config file at ~/.helen/config.yaml 
-# (on Windows: C:\Users\YourUsername\.helen\config.yaml)
+# Set up config file at ~/.heycli/config.yaml 
+# (on Windows: C:\Users\YourUsername\.heycli\config.yaml)
 # Then use it!
 heycli rename all files sequentially from 1
 heycli sort file names by size (descending) and save in a text file

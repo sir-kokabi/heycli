@@ -31,11 +31,11 @@ app = typer.Typer(
 
 def version_callback(value: bool) -> None:
     if value:       
-        console.print("Version 1.0.0")
+        console.print("Version 1.0.1")
 
 def get_accessible_providers():
     with console.status("Checking available AI providers...", speed=2):
-        config_file_path = pathlib.Path.home() / ".helen" / "config.yaml"
+        config_file_path = pathlib.Path.home() / ".heycli" / "config.yaml"
         with open(config_file_path, "r", encoding="utf-8") as file:
             config = yaml.safe_load(file)          
             providers = config["providers"]            
